@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg4);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50rem;
+    height: 4.5rem;
+    padding: 1.5rem 0.1rem;
+    border-bottom: 0.1rem solid var(--color);
+    margin: auto;
+
+    h1{
+        color: var(--color);
+        font-family: var(--font-family);
+        font-size: 1.4rem;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.4rem;
+    }
+
+    a{
+        color: var(--color);
+        font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 0.7rem;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+    span{
+        color: var(--color);
+        font-size: 0.9rem;
+    }
+}
+
+header a:hover{
+    transition: all 0.5s;
+    color: var(--color3);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg2);
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 11rem;
+    height: 55vh;
+    background-color: var(--bg4);
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    h2{
+        font-family: var(--font-family);
+        color: var(--color3);
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+        font-weight: 500;
+        letter-spacing: 0.4rem;
+    }
+
+    h1{
+        font-family: var(--font-family);
+        color: var(--color);
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+    }
+
+    p{
+        font-family: var(--font-family);
+        color: var(--color3);
+        margin-top: 1.3rem;
+    }
+
+    a{
+        background-color: var(--bg3);
+        width: 8rem;
+        height: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.3rem;
+        font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: var(--color);
+        font-weight: 500;
+        transition: all 0.5s;
+        border-radius: 0.2rem;
+    }
+}
+
+.texto-principal a:hover{
+    transition: all 0.5s;
+    color: var(--color3);
+    background-color: var(--bg2);
+}
+
+.imagem-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 29rem;
+        height: 32rem;
+        margin: auto;
+    }
+}
+
+.produtos{
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 38vh;
+    padding: 1rem 11rem;
+}
+
+.produtos-venda{
+    background-color: var(--bg5);
+    width: 14rem;
+    height: 7rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        width: 6.4rem;
+    }
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 10rem;
+    width: 12rem;
+    border-radius: 0.4rem;
+    margin-bottom: 5rem;
+    
+    h2{
+        font-family: var(--font-family);
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    a{
+        font-family: var(--font-family);
+        font-size: 0.6rem;
+        text-decoration: none;
+        color: var(--color3);
+        margin-top: 0.6rem;
+    }
+
+    span{
+        color:var(--color4)
+    }
+}
+
+.descricao a:hover{
+    color: var(--color4);
+}
+
+.propaganda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 11rem;
+    background-color: var(--bg2);
+    width: 100%;
+    
+}
+
+.zx9{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg3);
+    border-radius: 0.4rem;
+    height: 25rem;
+    background-image: url(/ASSETS/IMG/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.img-zx9{
+    img{
+        width: 20rem;
+        margin-top: 4.5rem;
+    }
+}
+
+.texto-zx9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.8rem;
+
+    h1{
+        font-family: var(--font-family);
+        color: var(--color);
+        font-weight: 400;
+        letter-spacing: 0.4rem;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-family: var(--font-family);
+        color: var(--color);
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    a{
+        background-color: var(--bg4);
+        width: 8rem;
+        height: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.3rem;
+        font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: var(--color);
+        font-weight: 500;
+        transition: all 0.5s;
+        border-radius: 0.2rem;
+    }
+}
+
+.texto-zx9 a:hover{
+    background-color: var(--bg2);
+    color: var(--color3);
+    transition: all 0.5s;
+}
+
+.zx7{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    padding: 0rem 4rem;
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    background-color: var(--bg5);
+    background-image:url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1{
+        font-family: var(--font-family);
+        color: var(--color2);
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+
+    a{
+        width: 8rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.1rem solid var(--color2);
+        text-decoration: none;
+        font-family: var(--font-family);
+        color: var(--color2);
+        border-radius: 0.2rem;
+    }
+}
+
+.zx7 a:hover{
+    color: var(--color3);
+}
+
+.yx1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.2rem;
+    gap: 2rem;
+    padding: 1rem 1rem;
+
+}
+
+.yx1-fone{
+    width: 100%;
+    height: 27vh;
+    background-image: url(/ASSETS/IMG/fone-caixa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.texto-yx1{
+    background-color: var(--bg);
+    width: 100%;
+    height: 27vh;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:  2rem 3rem;
+
+    h1{
+        font-family: var(--font-family);
+        color: var(--color2);
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+
+    a{
+        width: 8rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.1rem solid var(--color2);
+        text-decoration: none;
+        font-family: var(--font-family);
+        color: var(--color2);
+        border-radius: 0.2rem;
+    }
+}
+
+.yx1 a:hover{
+    color: var(--color3);
+}
+
+.descricao-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.2rem;
+    gap: 2rem;
+    padding:  2rem 12rem;
+    background-color: var(--bg2);
+}
+
+.texto-descritivo{
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+    h2{
+        font-family: var(--font-family);
+        color: var(--color2);
+        margin-bottom: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+
+    span{
+        color: var(--color4);
+    }
+
+    p{
+        font-family: var(--font-family);
+        font-size: 0.8rem;
+        text-align: justify;
+        line-height: 1.4rem;
+        color: var(--color3);
+    }
+
+}
+
+.foto-ouvinte{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/ASSETS/IMG/homem-fone.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.2rem;
+    gap: 2rem;
+    padding: 1rem 1rem;
+}
+
+.descricao-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding:  2rem 12rem;
+
+    h3{
+        font-family: var(--font-family);
+        color: var(--color);
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-family: var(--font-family);
+        color: var(--color3);
+        font-size: 0.6rem;
+    }
+
+    span{
+        font-family: var(--font-family);
+        color: var(--color3);
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+}
+
+.navegacao-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+}
