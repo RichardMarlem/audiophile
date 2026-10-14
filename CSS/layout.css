@@ -980,10 +980,11 @@ nav a:hover{
     .produtos {
         grid-template-columns: 1fr;
         gap: 2rem;
-        padding: 2rem 8%;
+        padding: 2rem 18%;
     }
 
     .produtos-venda {
+        
         max-width: 16rem;
         margin-bottom: 1.2rem;
     }
