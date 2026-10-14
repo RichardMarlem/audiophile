@@ -12,7 +12,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50rem;
+    width: 40%;
     height: 4.5rem;
     padding: 1.5rem 0.1rem;
     border-bottom: 0.1rem solid var(--color);
@@ -61,12 +61,15 @@ main{
 
 .principal{
     display: grid;
+    width: 100%;
     grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: center;
-    padding: 1rem 11rem;
+    padding: 1rem 18rem;
     height: 55vh;
     background-color: var(--bg4);
+    gap: 1rem;
+    
 }
 
 .texto-principal{
@@ -96,6 +99,7 @@ main{
         font-family: var(--font-family);
         color: var(--color3);
         margin-top: 1.3rem;
+        width: 22rem;
     }
 
     a{
@@ -125,14 +129,13 @@ main{
 
 .imagem-principal{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    width: 50rem;    
 
     img{
-        width: 29rem;
-        height: 32rem;
-        margin: auto;
+        width: 34rem;
+        height: 32rem;        
     }
 }
 
@@ -141,9 +144,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     height: 38vh;
-    padding: 1rem 11rem;
+    padding: 1rem 10rem;
 }
 
 .produtos-venda{
@@ -208,6 +211,7 @@ main{
 
 .zx9{
     display: grid;
+    width: 100%;
     grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: center;
@@ -283,7 +287,7 @@ main{
     height: 15rem;
     margin-top: 2rem;
     border-radius: 0.2rem;
-    background-color: var(--bg5);
+    background-color: var(--bg);
     background-image:url();
     background-size: cover;
     background-repeat: no-repeat;
@@ -433,8 +437,8 @@ footer{
     justify-content: center;
     width: 100%;
     margin-top: 0.2rem;
-    gap: 2rem;
-    padding: 1rem 1rem;
+    gap: 1rem;
+    padding: 0rem 1rem;
 }
 
 .descricao-3{
@@ -442,7 +446,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding:  2rem 12rem;
+    padding:  1rem 8rem;
 
     h3{
         font-family: var(--font-family);
@@ -454,7 +458,8 @@ footer{
     p{
         font-family: var(--font-family);
         color: var(--color3);
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        margin-top: 1rem;
     }
 
     span{
@@ -468,8 +473,51 @@ footer{
 .navegacao-2{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 2rem;
     width: 100%;
+    padding: 0rem 2rem;
+
+    
+
+    
+}
+
+nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 4rem;
+
+        a{
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-size: 0.7rem;
+        color: var(--color3);
+        transition: all 0.5s;
+    }
+}
+
+nav a:hover{
+    color: var(--color);
+    transition: all 0.5s;
+}
+
+.redes-sociais{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+    a{
+        color: var(--color3);
+        transition: all 0.5s;
+    }
+}
+
+.redes-sociais a:hover{
+    color:var(--color);
+    transition: all 0.5s;
 }
