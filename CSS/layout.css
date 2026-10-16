@@ -710,6 +710,241 @@ nav a:hover{
 
 }
 
+.fotos{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding:  2rem 5.6rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.fotos-duplas{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.foto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 17rem;
+    background-image: url(/ASSETS/IMG/mulherfone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+
+}
+
+.foto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 17rem;
+    background-image: url(/ASSETS/IMG/fone-propaganda.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+
+}
+
+.foto-unica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    height: 36rem;
+    background-image: url(/ASSETS/IMG/fone-preto.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+}
+
+.mostrar-produtos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    h1{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+.alinhar-produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding:  2rem 5.6rem;
+    margin-top: 1rem;
+}
+
+.visao-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    width: 14.5rem;
+    height: 14rem;
+    border-radius: 0.4rem;
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10rem;
+    }
+}
+
+.detalhes-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+
+    h3{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    a{
+        background-color: var(--bg3);
+        width: 8rem;
+        height: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: var(--color);
+        font-weight: 500;
+        transition: all 0.5s;
+        border-radius: 0.2rem;
+    }
+}
+
+.detalhes-produto a:hover{
+    background-color: var(--bg);
+    transition: all 0.5s;
+}
+
+.info-pg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 5.5rem;
+    gap: 1rem;
+    background-color: var(--bg5);
+    
+}
+
+.pagamento{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 2rem;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: flex-start;
+    background-color: var(--bg6);
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+
+
+    h1{
+        font-family: var(--font-family);
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+    }
+}
+
+.sumario{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: flex-start;
+
+    h1{
+        font-family: var(--font-family);
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.billing{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    
+
+    p{
+        font-family: var(--font-family);
+        color: var(--color4);
+        letter-spacing: 0.1rem;
+        font-size: 0.6rem;
+        font-weight: 700;
+        margin-bottom: 0.7rem;
+    }
+}
+
+.billing-detalhes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.billing-dados{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: flex-start;
+
+    label{
+        font-family: var(--font-family);
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+
+    input{
+        font-family: var(--font-family);
+        font-size: 0.8rem;
+        width: 12rem;
+        height: 2rem;
+        padding: 0.5rem;
+        border: solid 0.1rem var(--bg);
+        border-radius: 0.2rem;
+    }
+
+    
+}
+
+
+
 
 /* ================================
    RESPONSIVIDADE PARA TABLETS
@@ -775,7 +1010,7 @@ nav a:hover{
         width: 100%;
         height: auto;
         margin-top: 5rem;
-        padding: 2rem 5%;
+        padding: 2rem 10%;
         gap: 1.5rem;
         display: flex;
         align-items: center;
