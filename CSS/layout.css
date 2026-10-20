@@ -1050,7 +1050,8 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    gap: 1rem;
+    padding: 1rem;
 
     
 }
@@ -1058,10 +1059,11 @@ nav a:hover{
 .pg-dados{
     display: flex;
     align-items: center;
-    justify-content: first baseline;
+    justify-content: start;
     width: 10rem;
     border: 0.1rem solid var(--bg3);
-    
+    text-align: center;
+
     label{
         font-family: var(--font-family);
         font-size: 0.5rem;
